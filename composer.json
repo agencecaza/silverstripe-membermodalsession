@@ -1,5 +1,5 @@
 {
-    "name": "intwebg/membermodalsession",
+    "name": "intwebg/silverstripe-membermodalsession",
     "description": "Add logout timer when a logged in user doesn't doing any activities on the same page after 30 minutes.",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "login", "logout","timer"],
