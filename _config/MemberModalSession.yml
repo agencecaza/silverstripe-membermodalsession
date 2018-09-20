@@ -1,0 +1,4 @@
+
+Director:
+  rules:
+    'membermodalsessionajax//$Action/$ID': 'MemberModalSessionAjaxController'

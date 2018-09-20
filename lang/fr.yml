@@ -1,0 +1,7 @@
+fr:
+  MemberModalSession:
+    LOGOUT: 'Déconnexion'
+    KEEPLOGGUEDIN: 'Rester connecté'
+    LOGOUTIN: 'Déconnexion dans'
+    SECONDS: 'Secondes'
+    KEEPCONNECTED: 'Rester connecté?'
