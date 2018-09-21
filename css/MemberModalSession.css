@@ -17,9 +17,11 @@
 	visibility:visible;
 	opacity:1;
 }
+
 .MemberModalSession.active .content {
 	top:100px;
 }
+
 .MemberModalSession .content {
 	max-width:400px;
 	background-color: #fff;
@@ -38,15 +40,12 @@
 	bottom:0;
 	width:100%;
 	background-color:rgba(0,0,0,.3);
-  	z-index: 10000;
+	z-index: 10000;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-
-
-
 
 @media (max-width: 425px) {
 
