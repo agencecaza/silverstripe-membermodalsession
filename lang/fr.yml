@@ -5,3 +5,7 @@ fr:
     LOGOUTIN: 'Déconnexion dans'
     SECONDS: 'Secondes'
     KEEPCONNECTED: 'Rester connecté?'
+    TIMEOUT: "Temps avant l'affichage du modal"
+    TIMELEFT: "Temps aloué après l'affichage du modal"
+    INMINUTES: 'En minutes'
+    INSECONDS: 'En secondes'
