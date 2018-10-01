@@ -1,5 +1,11 @@
 <?php
 
+namespace Intwebg\MemberModalSession\DataExtension;
+
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\NumericField;
+
 class MemberModalSessionSiteConfigExtension extends DataExtension {
 
   private static $db = array(

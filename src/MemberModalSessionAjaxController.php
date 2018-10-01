@@ -1,5 +1,10 @@
 <?php
 
+namespace Intwebg\MemberModalSession\Controller;
+
+use SilverStripe\Control\Session;
+use SilverStripe\Control\Controller;
+
 class MemberModalSessionAjaxController extends Controller {
 
   private static $allowed_actions = array(
