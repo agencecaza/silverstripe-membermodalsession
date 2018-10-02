@@ -1,4 +1,4 @@
 
-Director:
+SilverStripe\Control\Director:
   rules:
-    'membermodalsessionajax//$Action/$ID': 'MemberModalSessionAjaxController'
+    'membermodalsessionajax//$Action/$ID': 'Intwebg\MemberModalSession\Controller\MemberModalSessionAjaxController'
