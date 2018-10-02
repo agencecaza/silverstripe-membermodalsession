@@ -2,7 +2,7 @@
 <p>A lightweight php/js stay login/logout modal to prevent users in frontend site.</p>
 
 <h2>Requirements</h2>
-<ul><li>SilverStripe ^3.1</li></ul>
+<ul><li>SilverStripe ^4.2.x</li></ul>
 
 <h2>Installation</h2>
 <pre>composer require intwebg/membermodalsession</pre>
