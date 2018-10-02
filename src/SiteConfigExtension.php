@@ -1,12 +1,12 @@
 <?php
 
-namespace Intwebg\MemberModalSession\DataExtension;
+namespace Intwebg\MemberModalSession;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\NumericField;
 
-class MemberModalSessionSiteConfigExtension extends DataExtension {
+class SiteConfigExtension extends DataExtension {
 
   private static $db = array(
     'MemberModalSessionTimeout' => 'Int',

@@ -1,8 +1,6 @@
 .MemberModalSession {
 	visibility:hidden;
 	opacity:0;
-	display:block !important;
-
 	z-index:1000000;
 	display: flex;
 	align-items: center;

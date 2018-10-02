@@ -29,7 +29,7 @@
 						clearTimeout(idleTimer);
 						clearInterval(downloadTimer);
 						console.log('logout');
-						window.location.href = $('.MemberModalSession').attr('data-redirect');
+						window.location.href = 'Security/logout?BackURL=' + $('.MemberModalSession').attr('data-redirect');
 					}
 				},1000);
 
