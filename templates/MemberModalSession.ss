@@ -9,5 +9,5 @@
   </div>
   <% require css("membermodalsession/css/MemberModalSession.css") %>
   <% require javascript("membermodalsession/javascript/MemberModalSession.js") %>
-  <% require javascript("membermodalsession/thirdparty/serkanyersen-ifvisible.js/src/ifvisible.min.js") %>
+  <% require javascript("membermodalsession/thirdparty/ifvisible.min.js") %>
 <% end_if %>
