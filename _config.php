@@ -1,4 +1,4 @@
 <?php
 
-Object::add_extension('ContentController', 'MemberModalSessionController');
-Object::add_extension('SiteConfig', 'MemberModalSessionSiteConfigExtension');
+SilverStripe\SiteConfig\SiteConfig::add_extension('Intwebg\MemberModalSession\SiteConfigExtension');
+SilverStripe\CMS\Controllers\ContentController::add_extension('Intwebg\MemberModalSession\Controller');

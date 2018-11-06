@@ -7,7 +7,7 @@
       <a href="{$BaseHref}Security/logout"><button class="no"><%t MemberModalSession.LOGOUT 'Logout' %></button></a>
     </div>
   </div>
-  <% require css("membermodalsession/css/MemberModalSession.css") %>
-  <% require javascript("membermodalsession/javascript/MemberModalSession.js") %>
-  <% require javascript("membermodalsession/thirdparty/serkanyersen-ifvisible.js/src/ifvisible.min.js") %>
+  <% require css("resources/vendor/intwebg/MemberModalSession/client/css/styles.css") %>
+  <% require javascript("resources/vendor/intwebg/MemberModalSession/client/javascript/scripts.js") %>
+  <% require javascript("resources/vendor/intwebg/MemberModalSession/client/thirdparty/ifvisible.min.js") %>
 <% end_if %>
