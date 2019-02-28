@@ -5,7 +5,7 @@
 <ul><li>SilverStripe ^4.2.x</li></ul>
 
 <h2>Installation</h2>
-<pre>composer require intwebg/membermodalsession</pre>
+<pre>composer require intwebg/silverstripe-membermodalsession</pre>
 <p>Just include MemberModalSession.ss in the body of a template and that's it!</p>
 <h2>Configuration</h2>
 <p>Timeouts are adjustable throught the SiteConfig.</p>
