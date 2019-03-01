@@ -8,5 +8,5 @@
     </div>
   </div>
   <% require css("resources/vendor/intwebg/MemberModalSession/client/css/styles.css") %>
-  <% require javascript("resources/vendor/intwebg/MemberModalSession/client/javascript/scripts.js") %>
+  <% require javascript("resources/vendor/intwebg/MemberModalSession/client/javascript/script.js") %>
 <% end_if %>
