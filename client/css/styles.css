@@ -31,6 +31,13 @@
 	transition: all 1s ease-in-out;
 }
 
+
+.MemberModalSession span.title,
+.MemberModalSession span.warning {
+	display: block;
+}
+
+
 .MemberModalSession {
 	position:fixed;
 	top:0;
