@@ -11,6 +11,7 @@
       idleState = false;
       idleTimer = setTimeout(function () {
 
+
 				$('.MemberModalSession').addClass('active');
 
 				$('.MemberModalSession button.yes').click(function() {
@@ -24,19 +25,26 @@
 				$(".MemberModalSession.active #seconds").html(timeleft);
 
 				var downloadTimer = setInterval(function(){
+
+					$( "*" ).mousemove(function( event ) {
+						timeleft = $('.MemberModalSession').attr('data-timeleft');
+					});
+
+
 					$(".MemberModalSession #seconds").html(--timeleft);
 					if(timeleft <= 0) {
 						clearTimeout(idleTimer);
 						clearInterval(downloadTimer);
 						console.log('logout');
-						window.location.href = 'Security/logout?BackURL=' + $('.MemberModalSession').attr('data-redirect');
+						window.location.href = 'Security/logout?SecurityID=' + $(".MemberModalSession").attr('data-securityid') + '&BackURL=' + $('.MemberModalSession').attr('data-redirect');
 					}
+
 				},1000);
 
 				e.stopPropagation();
         idleState = true;
 
-			}, $('.MemberModalSession').attr('data-timeout') * 60 * 1000); // in seconds
+			}, $('.MemberModalSession').attr('data-timeout') * 60 * 1000 ); // in seconds
 		});
 
 	  $("body").trigger("mousemove");
