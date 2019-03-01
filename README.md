@@ -9,5 +9,3 @@
 <p>Just include MemberModalSession.ss in the body of a template and that's it!</p>
 <h2>Configuration</h2>
 <p>Timeouts are adjustable throught the SiteConfig.</p>
-<hr>
-<p>This module includes in the thirdparty folder <a href="https://github.com/serkanyersen/ifvisible.js/">ifvisible.js</a> library from <a href="https://github.com/serkanyersen">serkanyersen</a></p>
