@@ -1,6 +1,6 @@
 <?php
 
-namespace Intwebg\MemberModalSession;
+namespace AgenceCaza\MemberModalSession;
 
 // use SilverStripe\Control\Session; not working
 use SilverStripe\Control\Controller;
