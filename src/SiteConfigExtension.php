@@ -1,6 +1,6 @@
 <?php
 
-namespace Intwebg\MemberModalSession;
+namespace AgenceCaza\MemberModalSession;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;
