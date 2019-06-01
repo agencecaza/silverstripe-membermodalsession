@@ -7,6 +7,6 @@
       <a href="$LogoutURL"><button class="no"><%t MemberModalSession.LOGOUT 'Logout' %></button></a>
     </div>
   </div>
-  <% require css("intwebg/silverstripe-membermodalsession:client/css/styles.css") %>
-  <% require javascript("intwebg/silverstripe-membermodalsession:client/javascript/script.js") %>
+  <% require css("agencecaza/silverstripe-membermodalsession:client/css/styles.css") %>
+  <% require javascript("agencecaza/silverstripe-membermodalsession:client/javascript/script.js") %>
 <% end_if %>
